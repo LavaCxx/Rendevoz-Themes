@@ -10,7 +10,7 @@ html[theme=light] body {
   --button-hover-background: #ccd0da;
   --border-background: #ccd0da;
   --select-color: #1e66f5;
-  .css-9tvygf {
+  .css-1i0lu0l,.css-9tvygf,.css-bfqt20 {
     background: #209fb5;
     &:hover {
       background: #179299 !important;
@@ -23,9 +23,9 @@ html[theme=dark] body {
   --background-secondary: #1F1F28;
   --button-hover-background: #363646;
   --border-background: #72716990;
-  --select-color: #FF5D62;
-  .css-9tvygf {
-    background: #FF5D62;
+  --select-color: #E46876;
+  .css-1i0lu0l,.css-9tvygf,.css-bfqt20 {
+    background: #E46876;
     &:hover {
       background: #E46876 !important;
     }
@@ -36,6 +36,11 @@ html[theme=dark] body {
 }
 .ParagraphBlock {
   border-radius: 4px;
+}
+.css-1u2f1h4{
+  &> div > div > div >* {
+    border-radius: 4px !important;
+  }
 }
 ::-webkit-scrollbar {
   width: 8px;
