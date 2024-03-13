@@ -1,8 +1,21 @@
 body {
   --light-background-color: #EFF1F5;
   --dark-background-color: #1F1F28;
-  font-family:  "SN Pro","LXGW WenKai" !important;
+  --curve:4px;
+  font-family:  "SN Pro", "LXGW WenKai" !important;
 }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9ca0b07f;
+  border-radius: 6px;
+}
+
 html[theme=light] body {
   --tabs-bg: #DBE0E7;
   --popover-background: #EFF1F5;
@@ -34,6 +47,7 @@ html[theme=dark] body {
     background-color: #7271697f;
   }
 }
+
 .ParagraphBlock {
   border-radius: 4px;
 }
@@ -41,15 +55,4 @@ html[theme=dark] body {
   &> div > div > div >* {
     border-radius: 4px !important;
   }
-}
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background-color: transparent;
-  position: absolute;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #0003;
-  border-radius: 6px;
 }
