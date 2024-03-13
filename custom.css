@@ -1,0 +1,50 @@
+body {
+  --light-background-color: #EFF1F5;
+  --dark-background-color: #1F1F28;
+  font-family:  "SN Pro","LXGW WenKai" !important;
+}
+html[theme=light] body {
+  --tabs-bg: #DBE0E7;
+  --popover-background: #EFF1F5;
+  --background-secondary: #E7E9ED;
+  --button-hover-background: #ccd0da;
+  --border-background: #ccd0da;
+  --select-color: #1e66f5;
+  .css-9tvygf {
+    background: #209fb5;
+    &:hover {
+      background: #179299 !important;
+    }
+  }
+}
+html[theme=dark] body {
+  --tabs-bg: #16161D;
+  --popover-background: #1F1F28;
+  --background-secondary: #1F1F28;
+  --button-hover-background: #363646;
+  --border-background: #72716990;
+  --select-color: #FF5D62;
+  .css-9tvygf {
+    background: #FF5D62;
+    &:hover {
+      background: #E46876 !important;
+    }
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #7271697f;
+  }
+}
+.ParagraphBlock {
+  border-radius: 4px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0003;
+  border-radius: 6px;
+}
