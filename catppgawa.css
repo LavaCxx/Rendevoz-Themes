@@ -1,7 +1,7 @@
 body {
   --light-background-color: #EFF1F5;
   --dark-background-color: #1F1F28;
-  --curve:4px;
+  --curve: 4px;
   font-family:  "SN Pro", "LXGW WenKai" !important;
 }
 ::-webkit-scrollbar {
@@ -20,10 +20,11 @@ html[theme=light] body {
   --tabs-bg: #DBE0E7;
   --popover-background: #EFF1F5;
   --background-secondary: #E7E9ED;
+  --global-background: #E7E9ED;
   --button-hover-background: #ccd0da;
   --border-background: #ccd0da;
   --select-color: #1e66f5;
-  .css-1i0lu0l,.css-9tvygf,.css-bfqt20 {
+  .css-1i0lu0l, .css-9tvygf, .css-bfqt20 {
     background: #209fb5;
     &:hover {
       background: #179299 !important;
@@ -34,10 +35,11 @@ html[theme=dark] body {
   --tabs-bg: #16161D;
   --popover-background: #1F1F28;
   --background-secondary: #1F1F28;
+  --global-background: #1F1F28;
   --button-hover-background: #363646;
   --border-background: #72716990;
   --select-color: #E46876;
-  .css-1i0lu0l,.css-9tvygf,.css-bfqt20 {
+  .css-1i0lu0l, .css-9tvygf, .css-bfqt20 {
     background: #E46876;
     &:hover {
       background: #E46876 !important;
@@ -52,7 +54,7 @@ html[theme=dark] body {
   border-radius: 4px;
 }
 .css-1u2f1h4{
-  &> div > div > div >* {
+  & > div > div > div > * {
     border-radius: 4px !important;
   }
 }
