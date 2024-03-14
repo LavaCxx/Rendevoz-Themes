@@ -1,8 +1,11 @@
 body {
   --light-background-color: #EFF1F5;
-  --dark-background-color: #1F1F28;
+  --dark-background-color: #363646AA;
   --curve: 4px;
-  font-family:  "SN Pro", "LXGW WenKai" !important;
+  font-family: "SN Pro", "LXGW WenKai Screen" !important;
+}
+.cm-content {
+  font-family: "JetBrainsMono Nerd Font Mono";
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -19,7 +22,7 @@ body {
 html[theme=light] body {
   --tabs-bg: #DBE0E7;
   --popover-background: #EFF1F5;
-  --background-secondary: #E7E9ED;
+  --background-secondary: #E7E9EDAA;
   --global-background: #E7E9ED;
   --button-hover-background: #ccd0da;
   --border-background: #ccd0da;
@@ -32,13 +35,14 @@ html[theme=light] body {
   }
 }
 html[theme=dark] body {
-  --tabs-bg: #16161D;
-  --popover-background: #1F1F28;
-  --background-secondary: #1F1F28;
-  --global-background: #1F1F28;
-  --button-hover-background: #363646;
+  --tabs-bg: #201F28;
+  --popover-background: #363646FA;
+  --background-secondary: #363646AA;
+  --global-background: #363646;
+  --button-hover-background: #201F28;
   --border-background: #72716990;
   --select-color: #E46876;
+  --font-white: #F8F8F8DD;
   .css-1i0lu0l, .css-9tvygf, .css-bfqt20 {
     background: #E46876;
     &:hover {
@@ -48,6 +52,9 @@ html[theme=dark] body {
   ::-webkit-scrollbar-thumb {
     background-color: #7271697f;
   }
+}
+.css-1p0w246 {
+  font-size: .85rem !important;
 }
 
 .ParagraphBlock {
