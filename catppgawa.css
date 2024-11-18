@@ -5,7 +5,7 @@ body {
   font-family: "SN Pro", "LXGW WenKai Screen" !important;
 }
 .cm-content {
-  font-family: "JetBrainsMono Nerd Font Mono";
+  font-family: "SauceCodePro Nerd Font Mono";
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -64,4 +64,13 @@ html[theme=dark] body {
   & > div > div > div > * {
     border-radius: 4px !important;
   }
+}
+
+/* 侧边栏 */
+.w-full.p-3.overflow-y-auto.pb-10.h-full {
+  background: var(--background-secondary);
+}
+
+.relative.h-full.sidebar-font + .relative.h-full{
+  background: var(--background-secondary);
 }
