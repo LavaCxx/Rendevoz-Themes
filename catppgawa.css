@@ -66,11 +66,17 @@ html[theme=dark] body {
   }
 }
 
+/* PDF预览 */
+.viewerBox {
+  background: var(--global-background);
+}
+
 /* 侧边栏 */
 .w-full.p-3.overflow-y-auto.pb-10.h-full {
   background: var(--background-secondary);
 }
 
+/* AI对话栏 */
 .relative.h-full.sidebar-font + .relative.h-full{
   background: var(--background-secondary);
 }
